@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"
+        android:icon="@drawable/baseline_share_24"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="androidx.core.view.ActionProvider" />
+
+    <!-- Add other menu items if needed -->
+</menu>
